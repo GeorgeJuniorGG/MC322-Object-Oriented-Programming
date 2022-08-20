@@ -1,0 +1,68 @@
+package Lab02;
+
+public class Musicfy {
+    public static void main(String[] args) {
+        User user1 = new User("Marcos Paulo", "777.777.777-77", "23/06/1975", "masculino", true);
+        User user2 = new User("Cookiezi", "111.111.11-11", "14/08/2001", "feminino", false);
+        User user3 = new User("Luke Skywalker", "123.654.222-12", "04/05/1977", "masculino", false);
+        User user4 = new User("Leia Organa", "312.565.121-65", "04/05/1977", "feminino", true);
+        Song song1 = new Song("Seven Nation Army", "Rock", "The White Stripes", 240);
+        Song song2 = new Song("Crazy Train", "Rock", "Ozzy Osbourne", 297);
+        Song song3 = new Song("Feels", "Pop", "Calvin Harris", 223);
+        Song song4 = new Song("Roar", "Pop", "Katy Perry", 270);
+        Song song5 = new Song("Anima", "Hardcore", "Xi", 270);
+        Song song6 = new Song("Freedom Dive", "Hardcore", "Xi", 266);
+        Song song7 = new Song("Teo", "Hardcore", "Omoi", 211);
+        Song song8 = new Song("Duel of the Fates", "Classical", "John Williams", 270);
+        Song song9 = new Song("Force Theme", "Classical", "John Williams", 250);
+        Playlist rockPlaylist = new Playlist("Awesome Rock Songs", "Rock");
+        Playlist popPlaylist = new Playlist("Trending Pop Songs", "Pop");
+        Playlist osuPlaylist = new Playlist("Osu Memories", "hardcore");
+        Playlist xiPlaylist = new Playlist("Xi songs", "hardcore");
+        Playlist starWarsPlaylist = new Playlist("Star Wars Music", "Classical");
+        Playlist emptyPlaylist = new Playlist("No songs", "None");
+        rockPlaylist.addSong(song1);
+        rockPlaylist.addSong(song2);
+        starWarsPlaylist.addSong(song8);
+        starWarsPlaylist.addSong(song9);
+        popPlaylist.addSong(song4);
+        popPlaylist.addSong(song3);
+        osuPlaylist.addSong(song5);
+        osuPlaylist.addSong(song6);
+        osuPlaylist.addSong(song7);
+        user1.addPlaylist(rockPlaylist);
+        user2.addPlaylist(osuPlaylist);
+        user1.getPlaylists()[0].getDetails();
+        user1.addPlaylist(osuPlaylist);
+        user1.getDetails();
+        user1.removePlaylist(rockPlaylist);
+        user1.getDetails();
+        user2.getDetails();
+        user2.addPlaylist(popPlaylist);
+        user2.addPlaylist(xiPlaylist);
+        user2.addPlaylist(emptyPlaylist);
+        user2.changeSubscription();
+        user2.addPlaylist(starWarsPlaylist);
+        user2.getDetails();
+        user2.transferPlaylist(starWarsPlaylist, user3);
+        user2.changeSubscription();
+        user2.getDetails();
+        user1.transferPlaylist(starWarsPlaylist, user4);
+        user4.getDetails();
+        osuPlaylist.getDetails();
+        osuPlaylist.play();
+        osuPlaylist.play();
+        osuPlaylist.play(true);
+        starWarsPlaylist.getAverageLength();
+        starWarsPlaylist.getDetails();
+        starWarsPlaylist.getLongestSong();
+        starWarsPlaylist.getShortestSong();
+        starWarsPlaylist.getTotalLength();
+        starWarsPlaylist.getMostMusicArtist();
+        osuPlaylist.getMostMusicArtist();
+        starWarsPlaylist.addSong(song3);
+        starWarsPlaylist.getDetails();
+        starWarsPlaylist.removeSong(song3);
+        starWarsPlaylist.getDetails();
+    }
+}
