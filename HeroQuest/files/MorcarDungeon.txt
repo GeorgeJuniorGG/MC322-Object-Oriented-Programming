@@ -1,0 +1,141 @@
+8
+4
+7 9
+StartRoom
+0
+2
+0 3
+Corridor1
+5 8
+Corridor4
+2
+1 6
+5 2
+0
+0
+30
+7 9
+MixRoom
+0
+2
+1 8
+Corridor2
+6 3
+Corridor1
+0
+3
+1 1
+1 4
+5 1
+4
+1
+2 6
+2
+2 2
+4 1
+1
+4 6
+35
+7 9
+GoblinRoom
+0
+2
+1 0
+Corridor2
+6 4
+Corridor3
+5
+1 7
+2 2
+3 5
+4 1
+5 7
+0
+3
+3
+1 4
+3 7
+5 3
+0
+0
+36
+7 9
+SkeletonRoom
+0
+2
+0 4
+Corridor3
+5 0
+Corridor4
+2
+1 1
+2 7
+1
+3 1
+7
+0
+4
+2 2
+5 2
+3 5
+5 6
+3
+1 7
+4 3
+4 7
+38
+4
+5
+1
+Corridor1
+0
+2
+1 0
+MixRoom
+1 4
+StartRoom
+0
+0
+0
+12
+5
+1
+Corridor3
+0
+2
+1 0
+GoblinRoom
+1 4
+SkeletonRoom
+0
+0
+0
+12
+4
+0
+Corridor2
+0
+2
+1 0
+MixRoom
+1 3
+GoblinRoom
+0
+0
+0
+10
+4
+0
+Corridor4
+0
+2
+1 0
+StartRoom
+1 3
+SkeletonRoom
+0
+0
+0
+10
+3 3
+StartRoom

@@ -1,0 +1,131 @@
+7
+5
+7 9
+StartRoom
+1
+5 0
+DeadlyCorridor
+0
+1
+2 6
+0
+0
+29
+7 9
+HardcoreRoom
+1
+0 3
+SmallCorridor
+1
+2 8
+DeadlyCorridor
+1
+1 3
+3
+3 2
+5 2
+5 7
+5
+2
+4 1
+5 4
+2
+1 1
+2 4
+1
+1 7
+37
+7 9
+DarkRoom
+1
+6 3
+SmallCorridor
+1
+1 8
+DeadlyCorridor
+2
+1 1
+5 7
+1
+5 6
+4
+0
+2
+5 1
+3 5
+2
+3 1
+1 4
+35
+7 9
+SafeRoom
+0
+2
+5 0
+DeadlyCorridor
+4 8
+TreasureRoom
+1
+2 1
+0
+2
+1
+4 7
+1
+1 5
+0
+31
+5 6
+TreasureRoom
+0
+1
+2 0
+SafeRoom
+3
+1 4
+3 2
+3 4
+0
+1
+1
+1 2
+0
+0
+22
+2
+5
+1
+SmallCorridor
+2
+1 0
+DarkRoom
+1 4
+HardcoreRoom
+0
+0
+0
+0
+12
+17
+1
+DeadlyCorridor
+1
+2 15
+StartRoom
+3
+0 12
+HardcoreRoom
+0 1
+DarkRoom
+2 5
+SafeRoom
+0
+0
+1
+1
+1 5
+0
+0
+37
+2 4
+StartRoom

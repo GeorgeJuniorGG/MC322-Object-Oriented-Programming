@@ -1,0 +1,34 @@
+# Total de salas/corredores
+# Numero de salas
+# Numero de corredores
+
+for
+# Dimensão de uma sala
+# Vertical(1)/Horizontal(0) (Se for corredor)
+# Nome da sala
+Gateways
+# Quantidade de Gateways
+# Coordenadas (linha,coluna)
+# Nome da sala/corredor do link
+Portas
+# Quantidade de portas
+# Coordenadas
+# Nome da sala/corredor do link
+Treasures
+# Quantidade de Treasures
+# Coordenadas (x,y)
+Traps
+# Quantidade de Traps
+# Coordenadas (x,y)
+# Monsters
+# Goblins
+# Coordenadas
+# Skeletons
+# Coordenadas
+# WizardSkeletons
+# Coordenadas
+# Quantidade de itens
+end for
+
+# Coordenadas do Hero
+# Nome da sala do Hero
